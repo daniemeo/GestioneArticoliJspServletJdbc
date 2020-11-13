@@ -1,4 +1,4 @@
-package it.gestionearticoli.web.servlet.Categoria;
+package it.gestionearticoli.web.servlet.categoria;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import it.gestionearticoli.model.Categoria;
 import it.gestionearticoli.model.Utente;
 import it.gestionearticoli.service.MyServiceFactory;
-import it.gestionearticoli.service.Categoria.CategoriaService;
+import it.gestionearticoli.service.categoria.CategoriaService;
 
 /**
  * Servlet implementation class VisualizzaCategoria

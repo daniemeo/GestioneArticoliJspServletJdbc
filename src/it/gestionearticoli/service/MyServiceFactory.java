@@ -1,17 +1,17 @@
 package it.gestionearticoli.service;
 
-import it.gestionearticoli.dao.Articolo.ArticoloDAO;
-import it.gestionearticoli.dao.Articolo.ArticoloDAOImpl;
-import it.gestionearticoli.dao.Categoria.CategoriaDAO;
-import it.gestionearticoli.dao.Categoria.CategoriaDAOImpl;
-import it.gestionearticoli.dao.Utente.UtenteDAO;
-import it.gestionearticoli.dao.Utente.UtenteDAOImpl;
-import it.gestionearticoli.service.Articolo.ArticoloService;
-import it.gestionearticoli.service.Articolo.ArticoloServiceImpl;
-import it.gestionearticoli.service.Categoria.CategoriaService;
-import it.gestionearticoli.service.Categoria.CategoriaServiceImpl;
-import it.gestionearticoli.service.Utente.UtenteService;
-import it.gestionearticoli.service.Utente.UtenteServiceImpl;
+import it.gestionearticoli.dao.articolo.ArticoloDAO;
+import it.gestionearticoli.dao.articolo.ArticoloDAOImpl;
+import it.gestionearticoli.dao.categoria.CategoriaDAO;
+import it.gestionearticoli.dao.categoria.CategoriaDAOImpl;
+import it.gestionearticoli.dao.utente.UtenteDAO;
+import it.gestionearticoli.dao.utente.UtenteDAOImpl;
+import it.gestionearticoli.service.articolo.ArticoloService;
+import it.gestionearticoli.service.articolo.ArticoloServiceImpl;
+import it.gestionearticoli.service.categoria.CategoriaService;
+import it.gestionearticoli.service.categoria.CategoriaServiceImpl;
+import it.gestionearticoli.service.utente.UtenteService;
+import it.gestionearticoli.service.utente.UtenteServiceImpl;
 public class MyServiceFactory {
 
 	// implementiamo il singleton in modo da evitare

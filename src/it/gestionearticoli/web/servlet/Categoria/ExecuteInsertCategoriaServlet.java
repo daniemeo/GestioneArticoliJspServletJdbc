@@ -1,4 +1,4 @@
-package it.gestionearticoli.web.servlet.Categoria;
+package it.gestionearticoli.web.servlet.categoria;
 
 import java.io.IOException;
 

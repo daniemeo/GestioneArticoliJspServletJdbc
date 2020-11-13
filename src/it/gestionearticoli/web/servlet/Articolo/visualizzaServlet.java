@@ -1,4 +1,4 @@
-package it.gestionearticoli.web.servlet.Articolo;
+package it.gestionearticoli.web.servlet.articolo;
 
 import java.io.IOException;
 
@@ -13,19 +13,19 @@ import javax.servlet.http.HttpSession;
 import it.gestionearticoli.model.Articolo;
 import it.gestionearticoli.model.Utente;
 import it.gestionearticoli.service.MyServiceFactory;
-import it.gestionearticoli.service.Articolo.ArticoloService;
+import it.gestionearticoli.service.articolo.ArticoloService;
 
 /**
  * Servlet implementation class visualizza
  */
 @WebServlet("/visualizzaServlet")
-public class visualizzaServlet extends HttpServlet {
+public class VisualizzaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public visualizzaServlet() {
+    public VisualizzaServlet() {
         super();
         // TODO Auto-generated constructor stub
     }

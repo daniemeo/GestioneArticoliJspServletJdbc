@@ -1,8 +1,8 @@
-package it.gestionearticoli.service.Articolo;
+package it.gestionearticoli.service.articolo;
 
 import java.util.List;
 
-import it.gestionearticoli.dao.Articolo.ArticoloDAO;
+import it.gestionearticoli.dao.articolo.ArticoloDAO;
 import it.gestionearticoli.model.Articolo;
 
 public interface ArticoloService {

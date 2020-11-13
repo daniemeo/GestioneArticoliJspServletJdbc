@@ -1,4 +1,4 @@
-package it.gestionearticoli.service.Articolo;
+package it.gestionearticoli.service.articolo;
 
 import java.sql.Connection;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import it.gestionearticoli.connection.MyConnection;
 import it.gestionearticoli.dao.Constants;
-import it.gestionearticoli.dao.Articolo.ArticoloDAO;
+import it.gestionearticoli.dao.articolo.ArticoloDAO;
 import it.gestionearticoli.model.Articolo;
 
 public class ArticoloServiceImpl implements ArticoloService {

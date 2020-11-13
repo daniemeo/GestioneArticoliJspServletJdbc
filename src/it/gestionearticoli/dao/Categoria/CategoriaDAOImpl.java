@@ -1,4 +1,4 @@
-package it.gestionearticoli.dao.Categoria;
+package it.gestionearticoli.dao.categoria;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

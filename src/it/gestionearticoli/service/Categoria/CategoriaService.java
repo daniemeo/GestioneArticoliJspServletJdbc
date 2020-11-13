@@ -1,7 +1,7 @@
-package it.gestionearticoli.service.Categoria;
+package it.gestionearticoli.service.categoria;
 import java.util.List;
 
-import it.gestionearticoli.dao.Categoria.CategoriaDAO;
+import it.gestionearticoli.dao.categoria.CategoriaDAO;
 import it.gestionearticoli.model.Categoria;
 
 public interface CategoriaService {

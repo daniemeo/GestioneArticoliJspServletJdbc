@@ -1,4 +1,4 @@
-package it.gestionearticoli.web.servlet.Categoria;
+package it.gestionearticoli.web.servlet.categoria;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -16,13 +16,13 @@ import it.gestionearticoli.service.MyServiceFactory;
  * Servlet implementation class prepareUpdateCategoriaServlet
  */
 @WebServlet("/prepareUpdateCategoriaServlet")
-public class prepareUpdateCategoriaServlet extends HttpServlet {
+public class PrepareUpdateCategoriaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public prepareUpdateCategoriaServlet() {
+    public PrepareUpdateCategoriaServlet() {
         super();
         // TODO Auto-generated constructor stub
     }

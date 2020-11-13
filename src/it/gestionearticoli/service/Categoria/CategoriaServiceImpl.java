@@ -1,4 +1,4 @@
-package it.gestionearticoli.service.Categoria;
+package it.gestionearticoli.service.categoria;
 
 import java.sql.Connection;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import it.gestionearticoli.connection.MyConnection;
 import it.gestionearticoli.dao.Constants;
-import it.gestionearticoli.dao.Categoria.CategoriaDAO;
+import it.gestionearticoli.dao.categoria.CategoriaDAO;
 import it.gestionearticoli.model.Categoria;
 
 public class CategoriaServiceImpl implements CategoriaService {

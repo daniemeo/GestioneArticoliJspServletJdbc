@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 
 import it.gestionearticoli.model.Utente;
 import it.gestionearticoli.service.MyServiceFactory;
-import it.gestionearticoli.service.Utente.UtenteService;
+import it.gestionearticoli.service.utente.UtenteService;
 
 
 /**

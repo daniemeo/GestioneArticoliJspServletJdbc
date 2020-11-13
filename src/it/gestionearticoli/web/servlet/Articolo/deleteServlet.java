@@ -1,4 +1,4 @@
-package it.gestionearticoli.web.servlet.Articolo;
+package it.gestionearticoli.web.servlet.articolo;
 
 import java.io.IOException;
 
@@ -17,13 +17,13 @@ import it.gestionearticoli.service.MyServiceFactory;
  * Servlet implementation class deleteServlet
  */
 @WebServlet("/deleteServlet")
-public class deleteServlet extends HttpServlet {
+public class DeleteServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public deleteServlet() {
+    public DeleteServlet() {
         super();
         // TODO Auto-generated constructor stub
     }

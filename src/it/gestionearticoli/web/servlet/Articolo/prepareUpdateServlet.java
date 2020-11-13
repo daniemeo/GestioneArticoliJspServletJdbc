@@ -1,4 +1,4 @@
-package it.gestionearticoli.web.servlet.Articolo;
+package it.gestionearticoli.web.servlet.articolo;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -16,14 +16,14 @@ import it.gestionearticoli.service.MyServiceFactory;
  * Servlet implementation class prepareUpdateServlet
  */
 @WebServlet("/prepareUpdateServlet")
-public class prepareUpdateServlet extends HttpServlet {
+public class PrepareUpdateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
 	Articolo articolo= new Articolo();
-    public prepareUpdateServlet() {
+    public PrepareUpdateServlet() {
         super();
         // TODO Auto-generated constructor stub
     }

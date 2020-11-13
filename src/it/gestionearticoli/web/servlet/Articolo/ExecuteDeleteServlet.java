@@ -1,4 +1,4 @@
-package it.gestionearticoli.web.servlet.Articolo;
+package it.gestionearticoli.web.servlet.articolo;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

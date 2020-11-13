@@ -1,4 +1,4 @@
-package it.gestionearticoli.dao.Utente;
+package it.gestionearticoli.dao.utente;
 
 import it.gestionearticoli.dao.IBaseDAO;
 import it.gestionearticoli.model.Utente;

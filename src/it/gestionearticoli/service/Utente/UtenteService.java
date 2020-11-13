@@ -1,8 +1,8 @@
-package it.gestionearticoli.service.Utente;
+package it.gestionearticoli.service.utente;
 
 import java.util.List;
 
-import it.gestionearticoli.dao.Utente.UtenteDAO;
+import it.gestionearticoli.dao.utente.UtenteDAO;
 import it.gestionearticoli.model.Utente;
 
 public interface UtenteService {

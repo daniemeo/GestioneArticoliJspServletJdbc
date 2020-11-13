@@ -1,4 +1,4 @@
-package it.gestionearticoli.dao.Utente;
+package it.gestionearticoli.dao.utente;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

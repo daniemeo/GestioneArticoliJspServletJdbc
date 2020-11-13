@@ -1,4 +1,4 @@
-package it.gestionearticoli.dao.Categoria;
+package it.gestionearticoli.dao.categoria;
 
 import it.gestionearticoli.dao.IBaseDAO;
 import it.gestionearticoli.model.Categoria;
